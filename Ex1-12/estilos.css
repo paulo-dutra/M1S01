@@ -1,0 +1,105 @@
+body {
+    background-color: darksalmon;
+    display: flex;
+    flex-direction: column;
+}
+
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e6f0ec;
+    z-index: 1;
+    border-style: double;
+}
+
+section {
+    top: 110px;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-image: url('https://cdn.pixabay.com/photo/2016/12/18/21/23/brick-wall-1916752_960_720.jpg');
+    background-size: cover;
+    z-index: 0;
+}
+
+h1 {
+    height: 50px;
+    width: 200px;
+    position: relative;
+    top: 75px;
+    left: calc(50vw - 100px);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: gold;
+    text-align: center;
+}
+
+ul {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-right: 100px;
+}
+
+li.navegacao {
+    margin: 25px;
+    display: inline;
+}
+
+li.navegacao:hover {
+    padding: 5px;
+    background-color: #ebd3d1;
+    border-radius: 15%;
+    transition: 300ms ease-in-out;
+}
+
+p {
+    font-size: 14px;
+}
+
+button {
+    background-color: black;
+    padding: 10px;
+    border-radius: 20%;
+    border-style: solid;
+    border-color: crimson;
+    border-width: 2px;
+    margin-top: 20px;
+}
+
+#img {
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main {
+    position: relative;
+    margin: 110px 0px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    align-items: center;
+    background-color: #736671;
+    font-size: 25px;
+    padding: 5px 25px 20px 25px;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+div>img {
+    border-style: dashed;
+    padding: 15px;
+    border-color: gold;
+    background-color: #3d3d3d;
+    width: 30vw;
+}
